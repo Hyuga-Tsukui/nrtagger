@@ -2,7 +2,8 @@ package main
 
 import (
 	"log"
-	"nrtagger/cmd"
+
+	"github.com/Hyuga-Tsukui/nrtagger/cmd"
 )
 
 func main() {

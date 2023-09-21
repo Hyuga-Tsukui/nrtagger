@@ -1,4 +1,4 @@
-module nrtagger
+module github.com/Hyuga-Tsukui/nrtagger
 
 go 1.21.0
 
