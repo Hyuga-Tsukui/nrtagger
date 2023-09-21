@@ -17,6 +17,17 @@ go install "github.com/Hyuga-Tsukui/nrtagger
 
 ## Usage
 
+### Create a deployment marker
+
 ```bash
 nrtagger create
 ``` 
+
+### Add a alias to a deployment marker
+
+The `add-alias` command allows you to pre-register combinations of `profile` and `guid`, which are used when creating deployment markers. This will be utilized during the execution of the `nrtagger create` command.
+
+
+```bash
+nrtagger add-alias
+```
